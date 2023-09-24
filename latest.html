@@ -317,7 +317,7 @@ a.entry-thumbnail:hover .thumbnail{filter:brightness(1.05)}
 .rtl .flex-right{left:0;right:unset}
 .main-logo{display:flex;align-items:center;flex-shrink:0;height:$(header.height);overflow:hidden;margin:0 28px 0 0}
 .rtl .main-logo{margin:0 0 0 28px}
-.main-logo img{display:block;width:auto;height:auto;max-height:40px}
+.main-logo img{display:block;width:auto;height:auto;}
 .main-logo .title{max-width:100%;font-family:var(--title-font);font-size:25px;color:var(--header-color);line-height:40px;font-weight:var(--title-weight);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .main-logo .title a{color:var(--header-color)}
 .main-logo .title a:hover{color:var(--header-hover-color)}
@@ -726,7 +726,7 @@ p.comments-message > em{color:#ff3f34;font-style:normal;margin:0 3px}
 .Profile .profile-link{display:block;font-size:12px;color:var(--meta-color)}
 .Profile .profile-link:hover{color:var(--main-color)}
 .Text .widget-content{font-family:var(--text-font);font-size:14px;color:var(--text-color)}
-.Image img{width:auto;height:auto}
+.Image img{width:135px;height:75px;}
 .Image .image-caption{font-size:14px;margin:8px 0 0}
 .contact-form-widget .cf-s{float:left;width:100%;height:36px;font-size:14px;color:var(--text-color);padding:0 15px;margin:0 0 10px;border:1px solid var(--border-color);border-radius:var(--radius)}
 .contact-form-email-message.cf-s{float:left;width:100%;height:auto;resize:vertical;padding:10px 15px}
@@ -752,12 +752,12 @@ p.comments-message > em{color:#ff3f34;font-style:normal;margin:0 3px}
 .ReportAbuse > h3:before{content:'\e002';font-family:'Material Icons Round';font-size:18px;color:var(--main-color);margin:0 3px 0 0}
 .rtl .ReportAbuse > h3:before{margin:0 0 0 3px}
 .ReportAbuse > h3 a:hover{text-decoration:underline}
-#footer-wrapper{position:relative;float:left;width:100%;background-color:var(--footer-bg);--title-color:var(--footer-color);--text-color:var(--footer-text-color)}
+#footer-wrapper{position:relative;float:left;width:100%;background-color:#000010;--title-color:var(--footer-color);--text-color:var(--footer-text-color)}
 #casper-about-section{flex-wrap:wrap;gap:35px;padding:40px 0}
 .about-section .Image{display:flex;justify-content:space-between;align-items:center;flex:1;max-width:calc(100% - $(sidebar.width + 35px));gap:30px}
 .footer-info{flex:1}
 .footer-info .title{font-size:$(widget.title.size);color:var(--title-color);margin:0 0 13px}
-.footer-logo img{display:block;width:auto;height:auto;max-height:40px}
+.footer-logo img{display:block;width:200px;height:100px;}
 .footer-info .image-caption{margin:0}
 .footer-info .image-caption a{color:var(--title-color)}
 .footer-info .image-caption a:hover{opacity:.9}
@@ -770,7 +770,7 @@ p.comments-message > em{color:#ff3f34;font-style:normal;margin:0 3px}
 .about-section .social-icons a:hover:before{color:#fff}
 .about-section .social-icons .instagram a:hover{background:var(--instagram)}
 .about-section .social-error{height:34px;background-color:var(--gray-bg);color:var(--title-color);padding:0 10px;border-radius:var(--radius)}
-.footer-bar{background-color:var(--footerbar-bg);color:var(--footerbar-color);padding:22px 0}
+.footer-bar{background-color:#000019;color:var(--footerbar-color);padding:22px 0}
 .footer-bar .footer-copyright{font-size:14px;font-weight:400}
 .footer-bar .footer-copyright a{color:var(--footerbar-color)}
 .footer-bar .footer-copyright a:hover{color:var(--footerbar-hover-color)}
@@ -1932,10 +1932,10 @@ body#layout #hidden-widgets{display:none!important}
       <b:widget id='Image52' locked='true' title='Default Thumbnail' type='Image' visible='false'>
         <b:widget-settings>
           <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhi2QNfMpF1kj4_Yp6Q14agj2GAQBIa_OBOn9lt0cDhJCJuhsMeQkGoEwKZOB7VDK4YVK4qQXu3V5i-Q6HG5gqBLvGa9UQ9Kp6Vt1Uwl1A9rM2-Xt3R44rOti-l7QUrSHY5_Yjei04YXLE4D28XrZq-jNGNMQJgF2RasAzMn6OYbOAJcbdLK47WqqK78A=s702</b:widget-setting>
-          <b:widget-setting name='displayHeight'>360</b:widget-setting>
+          <b:widget-setting name='displayHeight'>75</b:widget-setting>
           <b:widget-setting name='sectionWidth'>150</b:widget-setting>
           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-          <b:widget-setting name='displayWidth'>702</b:widget-setting>
+          <b:widget-setting name='displayWidth'>135</b:widget-setting>
           <b:widget-setting name='link'/>
           <b:widget-setting name='caption'/>
         </b:widget-settings>
@@ -1972,11 +1972,11 @@ body#layout #hidden-widgets{display:none!important}
                   <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Header Logo' showaddelement='no'>
                     <b:widget id='Image50' locked='true' title='' type='Image' visible='true'>
                       <b:widget-settings>
-                        <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiDy9ya2pRGz4e8yyRd0lik5lhnFSQNjN5c3AP9ke4-j4MxrAtbDBOUPD_clfsbMslmvymHuXS3Z1FtP_yGkuGobRsfaMpouVihA3DyG1yAnhM65bpUKj6U0ZK9cHcbTxcIxF9VtVYfh-xlazkQBWGasexC7IDVxSmILOzbO7eVrDIPpvXYFAW15gld9w=s1538-rw</b:widget-setting>
-                        <b:widget-setting name='displayHeight'>493</b:widget-setting>
-                        <b:widget-setting name='sectionWidth'>125</b:widget-setting>
+                        <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgRZmRA87Zqw6AsbzaJK5z-xxdqPQoC5Qt52nsR2lG354DSyTjTdCS3y6CjJRD0dgiU_VrPwFsJVAw-dErDIVi7GHa4XZy6XAcRGaFqzZpcVvfRrJVJtfpQDuTySgFGiGIelwK7N7z9D8wP9Exn5XtR3PtTk0xK7i2cusR53fUFQZVMyY22Qm-wanYgZtkc=s547</b:widget-setting>
+                        <b:widget-setting name='displayHeight'>347</b:widget-setting>
+                        <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                         <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-                        <b:widget-setting name='displayWidth'>1538</b:widget-setting>
+                        <b:widget-setting name='displayWidth'>547</b:widget-setting>
                         <b:widget-setting name='link'/>
                         <b:widget-setting name='caption'/>
                       </b:widget-settings>
@@ -2060,7 +2060,7 @@ body#layout #hidden-widgets{display:none!important}
     <div class='container row-x1 flex-sb'>
       <main id='main-wrapper'>
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
-          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' visible='true'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>$type={blogger}</b:widget-setting>
@@ -2175,6 +2175,20 @@ body#layout #hidden-widgets{display:none!important}
         </b:if>
       </section>
     </b:includable>
+            <b:includable id='commentsLink'>
+  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:if cond='data:post.numberOfComments &gt; 0'>
+      <b:message name='messages.numberOfComments'>
+        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+      </b:message>
+    <b:else/>
+      <data:messages.postAComment/>
+    </b:if>
+  </a>
+</b:includable>
+            <b:includable id='commentsLinkIframe'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
             <b:includable id='commentsTitle'>
       <!-- Comments Title -->
       <b:if cond='(data:post.numberOfComments != 0) and not (data:allBylineItems.comments.label contains &quot;disqus&quot; or data:allBylineItems.comments.label contains &quot;facebook&quot;)'><div class='title-wrap comments-title'><b:class expr:name='data:this.messages.blogComment ? &quot;has-message&quot; : &quot;no-message&quot;'/><h3 class='title'><data:post.numberOfComments/> <data:messages.comments/></h3></div></b:if>
@@ -2815,27 +2829,11 @@ body#layout #hidden-widgets{display:none!important}
             </b:widget>
             <b:widget id='LinkList7' locked='false' title='Social Plugin' type='LinkList' visible='false'>
               <b:widget-settings>
-                <b:widget-setting name='text-9'>skype</b:widget-setting>
-                <b:widget-setting name='link-9'>#</b:widget-setting>
-                <b:widget-setting name='text-8'>whatsapp</b:widget-setting>
-                <b:widget-setting name='link-7'>https://www.youtube.com/liveblogger</b:widget-setting>
-                <b:widget-setting name='link-8'>#</b:widget-setting>
-                <b:widget-setting name='link-5'>#</b:widget-setting>
-                <b:widget-setting name='link-6'>https://www.instagram.com/livebloggerofficial/</b:widget-setting>
-                <b:widget-setting name='link-3'>#</b:widget-setting>
-                <b:widget-setting name='link-4'>#</b:widget-setting>
-                <b:widget-setting name='text-1'>twitter</b:widget-setting>
-                <b:widget-setting name='text-0'>facebook</b:widget-setting>
-                <b:widget-setting name='text-3'>reddit</b:widget-setting>
-                <b:widget-setting name='text-2'>linkedin</b:widget-setting>
-                <b:widget-setting name='text-5'>vk</b:widget-setting>
-                <b:widget-setting name='text-4'>pinterest</b:widget-setting>
-                <b:widget-setting name='text-7'>youtube</b:widget-setting>
-                <b:widget-setting name='text-6'>instagram</b:widget-setting>
                 <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                <b:widget-setting name='link-1'>https://twitter.com/LiveBlogger1</b:widget-setting>
-                <b:widget-setting name='link-2'>#</b:widget-setting>
-                <b:widget-setting name='link-0'>https://www.facebook.com/soratemplates/</b:widget-setting>
+                <b:widget-setting name='text-1'>twitter</b:widget-setting>
+                <b:widget-setting name='link-1'>https://twitter.com/xplorapro</b:widget-setting>
+                <b:widget-setting name='text-0'>github</b:widget-setting>
+                <b:widget-setting name='link-0'>https://github.com/xplorapro</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3081,7 +3079,7 @@ body#layout #hidden-widgets{display:none!important}
       <input class='search-action btn' expr:value='data:messages.ok' type='submit'/>
     </b:includable>
             </b:widget>
-            <b:widget id='AdSense1' locked='false' title='' type='AdSense' visible='true'>
+            <b:widget id='AdSense1' locked='false' title='' type='AdSense' version='2' visible='true'>
               <b:includable id='main'>
   <div class='widget-content'>
     <b:if cond='data:adCode'>
@@ -3091,8 +3089,16 @@ body#layout #hidden-widgets{display:none!important}
     </b:if>
   </div>
 </b:includable>
+              <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:style='data:style ?: &quot;display: block;&quot;'>
+    <b:attr cond='not data:blog.analytics4' expr:value='data:blog.analyticsAccountNumber' name='data-analytics-uacct'/>
+  </ins>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</b:includable>
             </b:widget>
-            <b:widget id='AdSense2' locked='false' title='' type='AdSense' visible='true'>
+            <b:widget id='AdSense2' locked='false' title='' type='AdSense' version='2' visible='true'>
               <b:includable id='main'>
   <div class='widget-content'>
     <b:if cond='data:adCode'>
@@ -3101,6 +3107,14 @@ body#layout #hidden-widgets{display:none!important}
       <b:include name='defaultAdUnit'/>
     </b:if>
   </div>
+</b:includable>
+              <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:style='data:style ?: &quot;display: block;&quot;'>
+    <b:attr cond='not data:blog.analytics4' expr:value='data:blog.analyticsAccountNumber' name='data-analytics-uacct'/>
+  </ins>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </b:includable>
             </b:widget>
             <b:widget id='BlogArchive1' locked='false' title='' type='BlogArchive' visible='true'>
@@ -3487,7 +3501,7 @@ body#layout #hidden-widgets{display:none!important}
           <b:section class='about-section flex-sb' cond='data:widgets.Image any w =&gt; w.sectionId == &quot;casper-about-section&quot;' id='casper-about-section' maxwidgets='2' name='About Section' showaddelement='yes'>
             <b:widget id='Image51' locked='true' title='About Us' type='Image' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiDy9ya2pRGz4e8yyRd0lik5lhnFSQNjN5c3AP9ke4-j4MxrAtbDBOUPD_clfsbMslmvymHuXS3Z1FtP_yGkuGobRsfaMpouVihA3DyG1yAnhM65bpUKj6U0ZK9cHcbTxcIxF9VtVYfh-xlazkQBWGasexC7IDVxSmILOzbO7eVrDIPpvXYFAW15gld9w=s1538-rw</b:widget-setting>
+                <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgRZmRA87Zqw6AsbzaJK5z-xxdqPQoC5Qt52nsR2lG354DSyTjTdCS3y6CjJRD0dgiU_VrPwFsJVAw-dErDIVi7GHa4XZy6XAcRGaFqzZpcVvfRrJVJtfpQDuTySgFGiGIelwK7N7z9D8wP9Exn5XtR3PtTk0xK7i2cusR53fUFQZVMyY22Qm-wanYgZtkc=s547</b:widget-setting>
                 <b:widget-setting name='displayHeight'>493</b:widget-setting>
                 <b:widget-setting name='sectionWidth'>125</b:widget-setting>
                 <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
@@ -3505,19 +3519,11 @@ body#layout #hidden-widgets{display:none!important}
             </b:widget>
             <b:widget id='LinkList203' locked='true' title='Follow Us' type='LinkList' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='link-5'>https://probloggertemplates.com/</b:widget-setting>
-                <b:widget-setting name='link-3'>https://www.youtube.com/probloggertemplates?sub_confirmation=1</b:widget-setting>
-                <b:widget-setting name='link-4'>https://instagram.com/probloggertemplates</b:widget-setting>
-                <b:widget-setting name='text-1'>facebook</b:widget-setting>
-                <b:widget-setting name='text-0'>{getSocial}</b:widget-setting>
-                <b:widget-setting name='text-3'>youtube</b:widget-setting>
-                <b:widget-setting name='text-2'>twitter</b:widget-setting>
-                <b:widget-setting name='text-5'>rss</b:widget-setting>
-                <b:widget-setting name='text-4'>instagram</b:widget-setting>
                 <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                <b:widget-setting name='link-1'>https://www.facebook.com/probloggertemplates</b:widget-setting>
-                <b:widget-setting name='link-2'>https://twitter.com/probtemplates</b:widget-setting>
-                <b:widget-setting name='link-0'>#</b:widget-setting>
+                <b:widget-setting name='text-1'>twitter</b:widget-setting>
+                <b:widget-setting name='link-1'>https://twitter.com/xplorapro</b:widget-setting>
+                <b:widget-setting name='text-0'>github</b:widget-setting>
+                <b:widget-setting name='link-0'>https://github.com/xplorapro</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3535,7 +3541,7 @@ body#layout #hidden-widgets{display:none!important}
       <b:class cond='data:widgets.Image none w =&gt; w.sectionId == &quot;casper-about-section&quot;' name='is-simple'/>
       <div class='container row-x1 flex-sb'>
         <div class='footer-copyright' id='footer-copyright'>
-          <span class='copyright-text'>Design by - <a href='https://probloggertemplates.com/' id='probtemplates' title='Pro Blogger Templates'>Blogger Templates</a>  | <a href='https://copybloggerthemes.com/' rel='dofollow' style='color:#ff1a75' target='_blank' title='Blogger Templates'>CopyBloggerThemes.com</a></span>
+          <span class='copyright-text'>Design by - <a href='https://probloggertemplates.com/' id='probtemplates' title='Pro Blogger Templates'>Pro Blogger Templates</a>  | Powered by - <a href='https://copybloggerthemes.com/' rel='dofollow' style='color:#ff1a75' target='_blank' title='Blogger Templates'>Blogger</a></span>
         </div>
         <b:section class='footer-menu' id='footer-menu' maxwidgets='1' name='Footer Menu' showaddelement='yes'>
           <b:widget id='LinkList204' locked='true' title='' type='LinkList' visible='true'>
